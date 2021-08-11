@@ -67,9 +67,9 @@ spec:
     name: redis
     resources:
       requests:
-        cpu: "10"
+        cpu: "4"
         memory: "500Mi"
       limits:
-        cpu: "10"
+        cpu: "4"
         memory: "750Mi"
   restartPolicy: Always
